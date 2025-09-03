@@ -73,7 +73,8 @@ const Register = () => {
 
     try {
       const res = await dispatch(registerUser(formData)).unwrap();
-      toast.success('Welcome, ' + res.username + '!');
+      // toast.success('Welcome, ' + res.username + '!');
+      toast.success('Welcome, Registered successfully!');
       navigate('/login');
     } catch (err) {
       toast.error(err.message || 'Registration failed.');
