@@ -107,8 +107,7 @@ const Login = () => {
           <button
             type="submit"
             disabled={loading}
-            className={`btn2 ${loading ? 'opacity-50 cursor-not-allowed' : ''
-              }`}
+            className={`btn2 ${loading ? 'opacity-50 cursor-not-allowed' : ''}`}
           >
             {loading ? 'Logging in...' : 'Login'}
           </button>

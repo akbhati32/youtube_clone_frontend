@@ -95,6 +95,13 @@ const Register = () => {
         <h2 className="text-2xl font-medium text-gray-800 mb-1">Sign up</h2>
         <p className="text-sm text-gray-600 mb-6">to continue to YouTube</p>
 
+        {/* Error message */}
+        {error && !loading && (
+          <div className="bg-red-100 text-red-700 px-4 py-2 rounded mb-4 text-sm text-center">
+            {error}
+          </div>
+        )}
+
         <form onSubmit={handleSubmit} encType="multipart/form-data" className="space-y-4 text-sm">
           {/* Username input */}
           <input

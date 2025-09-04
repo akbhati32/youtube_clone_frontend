@@ -136,7 +136,7 @@ const VideoWatchPage = () => {
           onLike={handleLike}
           onDislike={handleDislike}
         />
-        <DescriptionToggle description={video.description} />
+        <DescriptionToggle description={video.description} video={video} />
         <CommentsToggle videoId={video._id} />
       </section>
 

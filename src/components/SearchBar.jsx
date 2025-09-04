@@ -1,4 +1,4 @@
-import { Search } from "lucide-react";
+import { Search, XIcon } from "lucide-react";
 import KeyboardVoiceIcon from "@mui/icons-material/KeyboardVoice";
 import { useDispatch, useSelector } from 'react-redux';
 import { setSearchTerm } from '../features/search/searchSlice';
@@ -19,27 +19,27 @@ const SearchBar = () => {
       {/* Search box with input + search button */}
       <div className="flex w-7/12 gap-2">
         <div className="w-full flex flex-grow">
-          <input
-            type="text"
-            placeholder="Search"
-            value={searchTerm}
-            onChange={handleSearchChange}
-            onKeyDown={(e) => e.key === "Enter"}
-            aria-label="Search"
-            className="border rounded-l-full px-3 py-2 w-full border-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-100 transition"
-          />
+            <input
+              type="text"
+              placeholder="Search"
+              value={searchTerm}
+              onChange={handleSearchChange}
+              onKeyDown={(e) => e.key === "Enter"}
+              aria-label="Search"
+              className="border rounded-l-full px-3 py-2 w-full border-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-100 transition"
+            />
 
-          {/* Clear button appears only when input has text */}
-          {searchTerm && (
-            <button
-              onClick={() => dispatch(setSearchTerm(""))}
-              className="hidden xl:flex absolute left-170 top-5 text-gray-500 hover:text-black"
-              aria-label="Clear search"
-            >
-              ✕
-            </button>
-          )}
-
+            {/* Clear button appears only when input has text */}
+            {searchTerm && (
+              <button
+                onClick={() => dispatch(setSearchTerm(""))}
+                className=" text-gray-500 hover:text-black p-1 md:p-2 border-y border-gray-400"
+                aria-label="Clear search"
+              >
+                <XIcon size={16} />
+              </button>
+            )}
+          
           {/* Search button (icon) */}
           <button
             type="submit"

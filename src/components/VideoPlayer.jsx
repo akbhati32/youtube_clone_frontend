@@ -52,16 +52,6 @@ const VideoPlayer = ({ video }) => {
       ) : (
         <>
           <h1 className="text-lg md:text-2xl font-bold mb-4">{video.title}</h1>
-
-          {/* Video meta info: date + views */}
-          <div className="flex flex-wrap justify-between items-center text-sm text-gray-600 mb-4">
-            <span>
-              {moment(video.createdAt).fromNow()}
-            </span>
-            <span className="text-xs sm:text-sm">
-              {video.views || 0} views
-            </span>
-          </div>
         </>
       )}
     </>
