@@ -10,7 +10,7 @@ Welcome to the **frontend** of a YouTube Clone built with **React**, **Redux Too
 
 ---
 
-## live video demo
+## Video Demo
 - [video demo](https://res.cloudinary.com/dqnqkvncm/video/upload/v1757001845/Final-VEED_eymtso.mp4)
 
 ---
