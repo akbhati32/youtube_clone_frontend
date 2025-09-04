@@ -10,6 +10,11 @@ Welcome to the **frontend** of a YouTube Clone built with **React**, **Redux Too
 
 ---
 
+## live video demo
+- [video demo](https://res.cloudinary.com/dqnqkvncm/video/upload/v1757001845/Final-VEED_eymtso.mp4)
+
+---
+
 ## ✨ Features
 
 - 🔐 JWT-based Authentication (Login/Register)
