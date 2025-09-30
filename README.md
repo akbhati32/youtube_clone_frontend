@@ -12,8 +12,8 @@ Welcome to the **frontend** of a YouTube Clone built with **React**, **Redux Too
 
 ## Live Link
 
-🔗 [Youtube Clone Frontend](https://youtube-clone-frontend-blue.vercel.app)
-🔗 [Youtube Clone Backend](https://youtube-clone-backend-zmct.onrender.com)
+- [Youtube Clone Frontend](https://youtube-clone-frontend-blue.vercel.app)
+- [Youtube Clone Backend](https://youtube-clone-backend-zmct.onrender.com)
 
 ---
 
