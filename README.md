@@ -4,9 +4,16 @@ Welcome to the **frontend** of a YouTube Clone built with **React**, **Redux Too
 
 ---
 
-## Git Repositories
+## Github Repositories
 
 - [Youtbe_clone_frontend](https://github.com/akbhati32/youtube_clone_frontend.git)
+
+---
+
+## Live Link
+
+🔗 [Youtube Clone Frontend](https://youtube-clone-frontend-blue.vercel.app)
+🔗 [Youtube Clone Backend](https://youtube-clone-backend-zmct.onrender.com)
 
 ---
 
